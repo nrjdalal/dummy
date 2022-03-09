@@ -25,12 +25,9 @@ const run = async () => {
     onError: (err) => console.log(err),
   })
 
-  try {
-    await client.sendMessage('me', { message: 'Hello from Telegram API!' })
-  } catch (e) {
-    console.log(e)
-  }
+  let res = await client.sendMessage('me', { message: 'Hello from Telegram API!' })
+
+  console.log(res)
 }
 
-// run via run
 run()

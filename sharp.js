@@ -1,7 +1,7 @@
 import sharp from 'sharp'
 
 const run = async () => {
-  const image = await sharp('./sharp/_input.jpg').resize({
+  const image = await sharp('./sharp/alpha.jpg').resize({
     width: 1000,
     height: 1000,
   })

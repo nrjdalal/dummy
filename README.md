@@ -5,10 +5,9 @@ To get API_ID and API_HASH visit https://my.telegram.org/auth?to=apps
 ### Results by Sharp
 
 ```
-1.5M    sharp/alpha.jpg
-180K    sharp/sharp-80-e6.webp
-180K    sharp/sharp-80-moz.jpeg
-192K    sharp/sharp-80.webp
-216K    sharp/sharp-80.jpeg
-580K    sharp/sharp-80.png
+3.3M    sharp/alpha.jpg
+2.1M    sharp/alpha-80-e6.webp
+2.2M    sharp/alpha-80.webp
+2.6M    sharp/alpha-80.jpeg
+3.1M    sharp/alpha-80-moz.jpeg
 ```

@@ -8,7 +8,7 @@ import dotenv from 'dotenv'
 dotenv.config()
 const { API_ID, API_HASH } = process.env
 
-const apiId = API_ID
+const apiId = parseInt(API_ID)
 const apiHash = API_HASH
 
 const session = new StoreSession('.session')

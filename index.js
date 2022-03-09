@@ -1,3 +1,4 @@
+// https://gram.js.org/
 import { Api, TelegramClient } from 'telegram'
 import { StoreSession } from 'telegram/sessions/index.js'
 
@@ -27,7 +28,7 @@ const run = async () => {
 
   let res
 
-  //  res = await client.sendMessage('me', { message: 'Hello from Telegram API!' })
+  res = await client.sendMessage('me', { message: 'Hello from Telegram API!' })
 
   console.log(res)
 }

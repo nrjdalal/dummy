@@ -1,4 +1,4 @@
-import { TelegramClient } from 'telegram'
+import { Api, TelegramClient } from 'telegram'
 import { StoreSession } from 'telegram/sessions/index.js'
 
 import input from 'input'
@@ -25,7 +25,9 @@ const run = async () => {
     onError: (err) => console.log(err),
   })
 
-  let res = await client.sendMessage('me', { message: 'Hello from Telegram API!' })
+  let res
+
+  //  res = await client.sendMessage('me', { message: 'Hello from Telegram API!' })
 
   console.log(res)
 }

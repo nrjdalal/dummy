@@ -4,5 +4,8 @@
     "dotenv": "^16.0.0",
     "input": "^1.0.1",
     "telegram": "^2.5.3"
+  },
+  "devDependencies": {
+    "sharp": "^0.30.2"
   }
 }

@@ -17,5 +17,3 @@ To get API_ID and API_HASH visit https://my.telegram.org/auth?to=apps
 192K    sharp/beta-80.jpeg
 1.4M    sharp/beta.jpg
 ```
-
-Hey there
